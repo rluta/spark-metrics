@@ -2,8 +2,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "spark-metrics",
     organization := "com.banzaicloud",
-    scalaVersion := "2.11.12",
-    version      := "2.3-2.0.4",
+    scalaVersion := "2.12.8",
+    version      := "2.4-2.0.4",
     libraryDependencies ++= Seq(
       "io.prometheus" % "simpleclient" % "0.3.0",
       "io.prometheus" % "simpleclient_dropwizard" % "0.3.0",
